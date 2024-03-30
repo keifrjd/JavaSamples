@@ -1,4 +1,4 @@
-abstract class AbstractObject implements Obj {
+abstract class AbstractObject implements Obj { //permits ArrayVector, ... - разрешает наследовать только этим классам
     @Override
     public boolean equals(Object o){
         if (this == o) return true;
@@ -12,4 +12,6 @@ abstract class AbstractObject implements Obj {
     public String toString(){
         return "(" + component(0) + "," + component(1) + "," +component(2);
     }
+
+   
 }

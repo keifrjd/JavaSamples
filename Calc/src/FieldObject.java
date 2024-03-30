@@ -36,5 +36,8 @@ public class FieldObject implements Obj{
         throw new UnsupportedOperationException("Unimplemented method 'plus'");
         //return new ArrayObject(arr[0]+other.component(0), arr[1]+other.component(1), arr[2]+other.component(2));
     }
-    
-}
+    @Override
+     public String toString(){
+         return "(" + x + ", " + y + ", " + z + ")";
+     }
+}   
